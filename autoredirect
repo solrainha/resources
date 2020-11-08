@@ -1,0 +1,2 @@
+setTimeout( redirectTumblr, 3000 );
+function redirectTumblr() {location.replace('http://themehive.tumblr.com' + location.pathname);}
