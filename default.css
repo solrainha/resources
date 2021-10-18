@@ -9,19 +9,6 @@ iframe.tmblr-iframe:hover{opacity:0.6!important;}
 
 /*
 
-Fade effect
-
-*/
-
-@-webkit-keyframes fadeIn{fromopacity:0;}to{opacity:1;}}
-@-moz-keyframes fadeIn{fromopacity:0;}to{opacity:1;}}
-@keyframes fadeIn{fromopacity:0;}to{opacity:1;}}
-.fade{opacity:0;-webkit-animation:fadeIn ease-in 1;-moz-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;-moz-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:1s;-moz-animation-duration:1s;animation-duration:1s;}
-.fade.first{-webkit-animation-delay:0;-moz-animation-delay:0;animation-delay:0;}
-.fade.second{-webkit-animation-delay:.8s;-moz-animation-delay:.8s;animation-delay:.8s;}
-
-/*
-
 Tumblr lightbox
 
 */
